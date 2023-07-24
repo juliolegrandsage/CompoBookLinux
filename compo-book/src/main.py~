@@ -1,0 +1,5 @@
+import cpuinfo
+
+processeur = cpuinfo.get_cpu_info()['brand_raw']
+
+print(processeur)
